@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>消息</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M5.3 4.55h10.8a2.25 2.25 0 0 1 2.25 2.25v2.25m0 2.2v1.6a2.25 2.25 0 0 1-2.25 2.25H9.65L5.55 18v-2.9H5.3a2.25 2.25 0 0 1-2.25-2.25V6.8A2.25 2.25 0 0 1 5.3 4.55"/>
+    <g stroke-width="0.46"><path d="M20.65 8.25v6.55a2.1 2.1 0 0 1-2.1 2.1h-1.2v3l-3.65-3h-2.1"/></g>
+  </g>
+  <g data-part="accent" stroke="#0596D4"><path d="M6.45 8.25h8.2m-8.2 3.1h5.7"/></g>
+</svg>

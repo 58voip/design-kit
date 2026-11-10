@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>短信息（SMS）</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M20.6 10.2V7.45a1.95 1.95 0 0 0-1.95-1.95H5.35A1.95 1.95 0 0 0 3.4 7.45v8.2a1.95 1.95 0 0 0 1.95 1.95h.7v2.15l3.1-2.15h9.5a1.95 1.95 0 0 0 1.95-1.95v-3.25"/>
+    <path transform="translate(7.1850 8.3) scale(1.07)" d="M2.25 .35C1.4-.4 0 0 0 .95c0 1.05 2.3.55 2.3 1.65 0 1.05-1.5 1.35-2.3.7" stroke-width="0.56"/>
+    <path transform="translate(10.7695 8.3) scale(1.07)" d="M0 3.6V0l1.15 1.65L2.3 0v3.6" stroke-width="0.56"/>
+    <path transform="translate(14.3540 8.3) scale(1.07)" d="M2.25 .35C1.4-.4 0 0 0 .95c0 1.05 2.3.55 2.3 1.65 0 1.05-1.5 1.35-2.3.7" stroke-width="0.56"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M8.15 14.8h7.7" stroke-width="0.46"/>
+  </g>
+</svg>

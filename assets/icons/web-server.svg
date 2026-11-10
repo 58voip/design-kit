@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>Web 服务器</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M20.95 6.2V5.35q0 -1.45 -1.45 -1.45H4.5q-1.45 0 -1.45 1.45V9.5q0 1.45 1.45 1.45H19.5q1.45 0 1.45 -1.45V8.4"/>
+    <rect x="3.05" y="12.55" width="17.9" height="6.65" rx="1.45" stroke-width="0.46"/>
+    <rect x="6.65" y="5.85" width="10.7" height="2.9" rx="0.85" stroke-width="0.46"/>
+    <path d="M8.35 7.3h.7m1.75 0h4.85" stroke-width="0.46"/>
+    <path d="M9.4 15.9h7.3" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <circle cx="6.65" cy="15.9" r="0.55" stroke-width="0.46"/>
+  </g>
+</svg>

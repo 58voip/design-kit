@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>视频会议</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M21.35 10.35V6.3q0 -1.6 -1.6 -1.6H4.25q-1.6 0 -1.6 1.6V17.7q0 1.6 1.6 1.6H19.75q1.6 0 1.6 -1.6V12.5"/>
+    <path d="M2.65 8.2h18.7" stroke-width="0.46"/>
+    <circle cx="7.35" cy="11.6" r="1.05" stroke-width="0.46"/>
+    <circle cx="12.15" cy="11.6" r="1.05" stroke-width="0.46"/>
+    <path d="M5.4 16.3v-.35a1.95 1.95 0 0 1 3.9 0v.35m.9 0v-.35a1.95 1.95 0 0 1 3.9 0v.35" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M16.1 14.1h1.5q.35 0 .35.35v.35l1.4-.65v2.6l-1.4-.65v.4q0 .35-.35.35h-1.5q-.35 0-.35-.35v-2.05q0-.35.35-.35Z" stroke-width="0.46"/>
+  </g>
+</svg>

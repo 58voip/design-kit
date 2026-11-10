@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>路由器</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M21.7 10.85V8.7A1.7 1.7 0 0 0 20 7H4a1.7 1.7 0 0 0-1.7 1.7v6.6A1.7 1.7 0 0 0 4 17h16a1.7 1.7 0 0 0 1.7-1.7v-2.15"/>
+    <path d="M5.25 10.1h3.65v3.8H5.25zm.9 0v1m1.85-1v1M10.6 10.1h3.65v3.8H10.6zm.9 0v1m1.85-1v1" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M16.25 10.55h3.45m-1.05-1.05 1.05 1.05-1.05 1.05m1.05 1.85h-3.45m1.05-1.05-1.05 1.05 1.05 1.05" stroke-width="0.46"/>
+  </g>
+</svg>

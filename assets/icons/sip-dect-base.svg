@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>SIP DECT 基站</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M11.8 14.9v-.95a1.7 1.7 0 0 0-1.7-1.7H4.2a1.7 1.7 0 0 0-1.7 1.7v4a1.7 1.7 0 0 0 1.7 1.7h5.9a1.7 1.7 0 0 0 1.7-1.7v-.9"/>
+    <path d="M7.15 12.25v-1.5M5 16.85h4.3" stroke-width="0.46"/>
+    <rect x="14.15" y="3.2" width="7.05" height="17.6" rx="1.85"/>
+    <rect x="15.6" y="6.1" width="4.15" height="4.15" rx=".55" stroke-width="0.46"/>
+    <path d="M16.35 13.05h.5m1.6 0h.5m-2.6 2.1h.5m1.6 0h.5m-2.6 2.1h.5m1.6 0h.5" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M3.85 7.75q3.3-2.55 6.6 0M5.35 9.45q1.8-1.35 3.6 0" stroke-width="0.46"/>
+  </g>
+</svg>

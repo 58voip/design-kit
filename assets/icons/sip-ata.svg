@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>模拟电话适配器（ATA）</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M20.5 10.5V9.15a1.7 1.7 0 0 0-1.7-1.7H5.2a1.7 1.7 0 0 0-1.7 1.7v5.7a1.7 1.7 0 0 0 1.7 1.7h13.6a1.7 1.7 0 0 0 1.7-1.7v-2.1"/>
+    <path d="M1.6 12h1.9m17 0h1.9" stroke-width="0.46"/>
+    <g transform="translate(-1.85 2.9) scale(.88)">
+    <path d="M9.15 7.55c-.72.28-.94 1-.65 1.8a6.7 6.7 0 0 0 3.82 3.8c.78.31 1.5.08 1.8-.64l.34-.83-1.65-.93-.77.75a4.75 4.75 0 0 1-1.92-1.93l.74-.76-.92-1.62z" stroke-width="0.46"/>
+    </g>
+    <path d="M14.55 10.25h3.9v3.55h-3.9zm.9 0v1.05m2.1-1.05v1.05" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M12.35 12h1" stroke-width="0.46"/>
+  </g>
+</svg>

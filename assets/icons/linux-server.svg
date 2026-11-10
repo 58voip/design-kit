@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>Linux 服务器</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M20.95 6.2V5.35q0 -1.45 -1.45 -1.45H4.5q-1.45 0 -1.45 1.45V9.5q0 1.45 1.45 1.45H19.5q1.45 0 1.45 -1.45V8.4"/>
+    <rect x="3.05" y="12.55" width="17.9" height="6.65" rx="1.45" stroke-width="0.46"/>
+    <path d="M9.7 9.5q-.5-.35 0-1.05l.7-1.1q.25-.4.25-.9a1.35 1.35 0 0 1 2.7 0q0 .5.25.9l.7 1.1q.5.7 0 1.05m-3.7 0q1.4.6 2.8 0m-2-3.05.6.5.6-.5" stroke-width="0.46"/>
+    <path d="M9.4 15.9h7.3" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <circle cx="6.65" cy="15.9" r="0.55" stroke-width="0.46"/>
+  </g>
+</svg>

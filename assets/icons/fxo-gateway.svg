@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>FXO 网关</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M21.8 11.45V6.2q0 -1.6 -1.6 -1.6H3.8q-1.6 0 -1.6 1.6V17.8q0 1.6 1.6 1.6H20.2q1.6 0 1.6 -1.6V13.6"/>
+    <path d="M2.2 9.9H1v4.2h1.2m19.6-4.2H23v4.2h-1.2" stroke-width="0.46"/>
+    <path transform="translate(7.7250 6.55) scale(0.95)" d="M0 3.6V0h2.3M0 1.75h1.8" stroke-width="0.56"/>
+    <path transform="translate(10.9075 6.55) scale(0.95)" d="M0 0l2.3 3.6M2.3 0 0 3.6" stroke-width="0.56"/>
+    <path transform="translate(14.0900 6.55) scale(0.95)" d="M1.15 0c-.75 0-1.15.55-1.15 1.2v1.2c0 .65.4 1.2 1.15 1.2s1.15-.55 1.15-1.2V1.2C2.3.55 1.9 0 1.15 0Z" stroke-width="0.56"/>
+    <rect x="5.85" y="13.05" width="3.95" height="3.2" rx="0.45" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M13.75 13.05h4.6v3.2h-4.6zm1.1 0v1m2.4-1v1" stroke-width="0.46"/>
+  </g>
+</svg>

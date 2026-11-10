@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>MCP Query</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M9.6 17.2H5.5a2.4 2.4 0 0 1-2.4-2.4V6.6a2.4 2.4 0 0 1 2.4-2.4h13a2.4 2.4 0 0 1 2.4 2.4v4.9"/>
+    <g stroke-width="0.46"><path d="M5.7 13.85h3.15"/></g>
+    <g aria-label="MCP" stroke-width="0.56">
+      <path d="M5.65 11V7.25L7.15 9.1l1.5-1.85V11"/>
+      <path d="M13.35 7.5a1.35 1.35 0 0 0-.82-.25h-.7c-.7 0-1.12.46-1.12 1.16v1.43c0 .7.42 1.16 1.12 1.16h.7c.34 0 .61-.08.82-.25"/>
+      <path d="M15.45 11V7.25h1.78a1.08 1.08 0 1 1 0 2.16h-1.78"/>
+    </g>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <circle cx="15.65" cy="16.3" r="3.5"/>
+    <path d="m18.15 18.75 2.85 2.85"/>
+    <path d="M14.55 16.3h2.2m-1.1-1.1v2.2" stroke-width="0.46"/>
+  </g>
+</svg>

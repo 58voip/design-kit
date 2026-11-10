@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>主叫</title>
+  <g data-part="body" stroke="#68737C">
+    <circle cx="6.7" cy="7.85" r="2.9"/>
+    <path d="M2.5 19v-1.65a4.2 4.2 0 0 1 4.2-4.2h.15a4.2 4.2 0 0 1 4.2 4.2V19"/>
+    <g transform="translate(6.6 -1.8)">
+    <path d="M9.15 7.55c-.72.28-.94 1-.65 1.8a6.7 6.7 0 0 0 3.82 3.8c.78.31 1.5.08 1.8-.64l.34-.83-1.65-.93-.77.75a4.75 4.75 0 0 1-1.92-1.93l.74-.76-.92-1.62z" stroke-width="0.46"/>
+    </g>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M13.4 16.2h8.1m-2.35-2.35 2.35 2.35-2.35 2.35"/>
+  </g>
+</svg>

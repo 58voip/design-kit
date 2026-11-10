@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>光猫（ONT）</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M6.4 10.6V9.05a1.6 1.6 0 0 1 1.6-1.6h11.85a1.6 1.6 0 0 1 1.6 1.6v5.9a1.6 1.6 0 0 1-1.6 1.6H8a1.6 1.6 0 0 1-1.6-1.6v-1.5"/>
+    <path d="M1.65 15.4v-1.7a1.7 1.7 0 0 1 1.7-1.7h.7" stroke-width="0.46"/>
+    <path d="M14.7 10.15h4.5v3.7h-4.5zm1.05 0v1.05m2.4-1.05v1.05" stroke-width="0.46"/>
+    <circle cx="9.45" cy="12" r=".45" stroke-width="0.46"/>
+    <circle cx="11.9" cy="12" r=".45" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <rect x="4.05" y="11.25" width="2.35" height="1.5" rx=".35" stroke-width="0.46"/>
+  </g>
+</svg>

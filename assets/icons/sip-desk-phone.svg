@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>SIP 桌面话机</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M21.6 11.55V6.8a2 2 0 0 0-2-2H4.4a2 2 0 0 0-2 2v10.4a2 2 0 0 0 2 2h15.2a2 2 0 0 0 2-2v-3.35"/>
+    <path d="M5.65 6.8h1.5c.5 0 .92.38.98.87l.21 1.68c.06.47-.24.9-.7 1.02l-.49.12v3.02l.49.12c.46.12.76.55.7 1.02l-.21 1.68c-.06.49-.48.87-.98.87h-1.5a1 1 0 0 1-1-1V7.8a1 1 0 0 1 1-1Z" stroke-width="0.46"/>
+    <rect x="10.55" y="6.85" width="8.8" height="4.3" rx=".85" stroke-width="0.46"/>
+    <path d="M11.95 13.85h.55m2.2 0h.55m2.2 0H18m-6.05 2.55h.55m2.2 0h.55m2.2 0H18" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M12.25 9h4.05" stroke-width="0.46"/>
+  </g>
+</svg>

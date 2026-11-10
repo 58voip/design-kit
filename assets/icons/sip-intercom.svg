@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>SIP 门口对讲机</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M17.55 11.1V5.15a1.8 1.8 0 0 0-1.8-1.8h-7.5a1.8 1.8 0 0 0-1.8 1.8v13.7a1.8 1.8 0 0 0 1.8 1.8h7.5a1.8 1.8 0 0 0 1.8-1.8v-5.5"/>
+    <g stroke-width="0.46">
+      <circle cx="9.5" cy="7.65" r=".33"/><circle cx="12" cy="7.65" r=".33"/><circle cx="14.5" cy="7.65" r=".33"/>
+      <circle cx="9.5" cy="9.65" r=".33"/><circle cx="12" cy="9.65" r=".33"/><circle cx="14.5" cy="9.65" r=".33"/>
+    </g>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <circle cx="12" cy="15.05" r="2.35" stroke-width="0.46"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>电信运营商</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M6.6 20.6 11.2 9.3m1.6 0 4.6 11.3M8.3 16.4h7.4m-6.15-3.2 5.9 3.2m-.95-3.2-5.9 3.2M4.95 20.6h14.1"/>
+    <circle cx="12" cy="7.45" r="0.85" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M8.55 4.7a4.45 4.45 0 0 0 0 5.5m6.9-5.5a4.45 4.45 0 0 1 0 5.5M6.8 3.3a6.6 6.6 0 0 0 0 8.3m10.4-8.3a6.6 6.6 0 0 1 0 8.3" stroke-width="0.46"/>
+  </g>
+</svg>

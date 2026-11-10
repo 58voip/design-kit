@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>SIP 服务器</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M20.95 6.2V5.35q0 -1.45 -1.45 -1.45H4.5q-1.45 0 -1.45 1.45V9.5q0 1.45 1.45 1.45H19.5q1.45 0 1.45 -1.45V8.4"/>
+    <rect x="3.05" y="12.55" width="17.9" height="6.65" rx="1.45" stroke-width="0.46"/>
+    <path transform="translate(7.7250 5.65) scale(0.95)" d="M2.25 .35C1.4-.4 0 0 0 .95c0 1.05 2.3.55 2.3 1.65 0 1.05-1.5 1.35-2.3.7" stroke-width="0.56"/>
+    <path transform="translate(10.9075 5.65) scale(0.95)" d="M1.15 0v3.6" stroke-width="0.56"/>
+    <path transform="translate(14.0900 5.65) scale(0.95)" d="M0 3.6V0h1.3a.9.9 0 0 1 0 1.8H0" stroke-width="0.56"/>
+    <path d="M9.4 15.9h7.3" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <circle cx="6.65" cy="15.9" r="0.55" stroke-width="0.46"/>
+  </g>
+</svg>

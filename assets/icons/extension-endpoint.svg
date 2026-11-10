@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke-width="0.56" stroke-linecap="round" stroke-linejoin="round">
+  <title>Extension endpoint</title>
+  <g data-part="body" stroke="#68737C">
+    <path d="M21 9.6V6.1a1.9 1.9 0 0 0-1.9-1.9H4.9A1.9 1.9 0 0 0 3 6.1v9A1.9 1.9 0 0 0 4.9 17h14.2a1.9 1.9 0 0 0 1.9-1.9v-3.3"/>
+    <path d="M12 17v3.3m-4.3 0h8.6"/>
+    <path d="M3.4 14.8h17.2" stroke-width="0.46"/>
+  </g>
+  <g data-part="accent" stroke="#0596D4">
+    <path d="M9.15 7.55c-.72.28-.94 1-.65 1.8a6.7 6.7 0 0 0 3.82 3.8c.78.31 1.5.08 1.8-.64l.34-.83-1.65-.93-.77.75a4.75 4.75 0 0 1-1.92-1.93l.74-.76-.92-1.62z" stroke-width="0.46"/>
+  </g>
+</svg>
