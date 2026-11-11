@@ -1,0 +1,1 @@
+小红书品牌标记原件存档：https://commons.wikimedia.org/wiki/File:XiaohongshuLOGO.png ；文件 https://upload.wikimedia.org/wikipedia/commons/c/c1/XiaohongshuLOGO.png 。第三方品牌存档，非自行绘制，保留原色与比例。

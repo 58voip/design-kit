@@ -9,14 +9,29 @@ import unicodedata
 
 
 ROOT = Path(__file__).resolve().parents[1]
-KINDS = {"icon": "icons"}
+KINDS = {"icon": "icons", "brand": "brands", "illustration": "illustrations"}
 FORMATS = {".svg", ".png", ".webp", ".jpg", ".jpeg"}
+LABELS = {
+    "brands/3cx/3CX-GRAY.png": "3CX 灰色 Logo",
+    "brands/3cx/3cx-white.png": "3CX 白色 Logo",
+    "brands/qwen/qwen-official.png": "通义千问原色",
+    "brands/qwen/qwen-gray-display.png": "通义千问灰色（PNG）",
+    "brands/qwen/qwen-gray-display.svg": "通义千问灰色（SVG）",
+    "illustrations/3cx-call-popup-summary.png": "无文字来电摘要插画",
+}
 ALIASES = {
     "icons/sip-desk-phone.svg": ("SIP 终端", "SIP 话机"),
     "icons/3cx-desk-phone.svg": ("3CX SIP 终端", "接入 3CX 的 SIP 终端"),
     "icons/network-router.svg": ("网络路由器",),
     "icons/teams-direct-routing.svg": ("Direct Routing", "Teams 直连"),
     "icons/pms-system.svg": ("通用 PMS", "酒店 PMS"),
+    "brands/3cx/3CX-GRAY.png": ("3CX Logo", "3CX 灰标", "灰色 3CX"),
+    "brands/3cx/3cx-white.png": ("3CX Logo", "3CX 白标", "白色 3CX"),
+    "brands/qwen/qwen-official.png": ("千问 Logo", "Qwen Logo"),
+    "brands/qwen/qwen-gray-display.png": ("灰色千问", "千问灰色"),
+    "brands/qwen/qwen-gray-display.svg": ("灰色千问", "千问灰色"),
+    "brands/software/microsoft-365.svg": ("微软 365", "M365"),
+    "illustrations/3cx-call-popup-summary.png": ("来电摘要", "来电弹屏摘要"),
 }
 
 
@@ -25,12 +40,16 @@ def normalize(value):
 
 
 def indexed_names():
-    labels = {}
+    labels = dict(LABELS)
     for doc in ("icon-briefs.md", "icon-system.md"):
-        source = (ROOT / "docs" / doc).read_text()
+        source = (ROOT / "docs" / "shared" / doc).read_text()
         for name, title in re.findall(r"^\|\s*`([^`]+)`\s*\|\s*([^|\n]+)\|", source, re.M):
             filename = name if name.endswith(".svg") else f"{name}.svg"
             labels[f"icons/{filename}"] = title.strip()
+    for doc in ("visual-assets.md", "crm-brand-logos.md"):
+        source = (ROOT / "docs" / "shared" / doc).read_text()
+        for title, filename in re.findall(r"^\|\s*([^|\n]+?)\s*\|\s*\[[^\]]+\]\(\.\./\.\./assets/(brands/[^)]+)\)", source, re.M):
+            labels[filename] = title.strip()
     return labels
 
 

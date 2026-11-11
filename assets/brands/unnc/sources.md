@@ -1,0 +1,1 @@
+宁波诺丁汉大学官方网站品牌素材。unnc-logo.jpg 来自 https://www.nottingham.edu.cn/SiteElements/Images/2023-Revamp/Logo/UoN-Logo.jpg 。master-logo.png 为官方品牌结构讲解图，不作为独立 Logo 使用。品牌指南 https://www.nottingham.edu.cn/en/brand/visual-identity.aspx 。保留官方原色与比例，中文校名单独排版。

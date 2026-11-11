@@ -5,6 +5,7 @@ Usage: python3 scripts/render-icon-preview.py
 Reads canonical SVGs and rebuilds the preview sheets in docs.
 """
 from pathlib import Path
+import base64
 import re
 import subprocess
 import tempfile
@@ -50,7 +51,16 @@ def check_svg(path):
     assert {"body", "accent"} <= layers.keys(), path.name
     assert layers["body"].get("stroke", "").upper() == "#68737C", path.name
     assert layers["accent"].get("stroke", "").upper() == "#0596D4", path.name
-    assert "brand" not in layers, path.name
+    if path.name.startswith("3cx-"):
+        assert "brand" in layers, path.name
+    if "brand" in layers:
+        images = list(layers["brand"].iter(f"{{{SVG_NS}}}image"))
+        assert len(images) == 1, path.name
+        uri = images[0].get(f"{{{XLINK}}}href") or images[0].get("href")
+        assert uri.startswith("data:image/png;base64,"), path.name
+        embedded = base64.b64decode(uri.split(",", 1)[1], validate=True)
+        if path.name.startswith("3cx-"):
+            assert embedded == (ROOT / "assets/brands/3cx/3CX-GRAY.png").read_bytes(), path.name
     for node in svg.iter():
         width = node.get("stroke-width")
         if width:
@@ -84,17 +94,18 @@ def render_board(icons, heading, columns, filename):
             draw.text((x + 56, y + 264), "48", font=font(11), fill="#89959D", anchor="rm")
             draw.text((x + 161, y + 264), "36", font=font(11), fill="#89959D", anchor="rm")
             print(f"OK {svg_name}: 144/48/36 px")
-    output = ROOT / "docs" / filename
+    output = ROOT / "docs" / "shared" / filename
     board.save(output)
     print(output)
 
 
 def main():
-    standard = (ROOT / "docs/icon-system.md").read_text()
+    standard = (ROOT / "docs/shared/icon-system.md").read_text()
     general = [(f"{name}.svg", title.strip()) for name, title in
                re.findall(r"^\| `([^`]+)` \| ([^|]+) \|", standard, flags=re.M)]
-    briefs = (ROOT / "docs/icon-briefs.md").read_text()
+    briefs = (ROOT / "docs/shared/icon-briefs.md").read_text()
     boards = [
+        (entries(briefs, "3CX 官方产品与部署组件"), "3CX 产品与部署组件", 4, "icon-preview-3cx-components.png"),
         (entries(briefs, "VoIP／SIP 设备相关图标"), "VoIP／SIP 设备与通话角色", 4, "icon-preview-voip-sip.png"),
         (entries(briefs, "网络设备相关图标"), "网络设备", 4, "icon-preview-network.png"),
         (entries(briefs, "语音通信系统与网络"), "语音通信系统与网络", 3, "icon-preview-telephony.png"),

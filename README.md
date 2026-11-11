@@ -1,22 +1,19 @@
-# Design Kit · 设计规范与通用图标
+# Design Kit · 图标库与企业案例技能
 
-这是用于 PPT、图片、拓扑图和视频的设计规范与通用线条素材分享版。收录 **43 枚可编辑 SVG**，使用统一的细线、开放轮廓和局部蓝色强调。
+公开分享图标、品牌标记、相关设计指导与企业案例制作技能。2026-11-11 更新。
 
-| 查找内容 | 入口 |
+| 内容 | 入口 |
 |---|---|
-| 设备、语音通信、应用、服务器图标 | [图标绘制清单与分组预览](docs/icon-briefs.md) |
-| 来电、消息、邮件、摘要等常用图标 | [通用图标预览](docs/icon-preview.png) |
-| 线宽、留白、色彩和 SVG 分层 | [图标规范](docs/icon-system.md) |
-| 视频编排与交付 | [视频制作规范](docs/workflow.md) |
-| 在 Codex 中按名称选取素材 | [设计素材库技能](skills/design-assets/SKILL.md) |
+| 图标原件 | [assets/icons](assets/icons/) |
+| 品牌原件 | [assets/brands](assets/brands/) |
+| 图标总览与绘制清单 | [清单](docs/shared/icon-briefs.md) · [总览](docs/shared/icon-preview-all.png) |
+| 图标设计与自动入库规则 | [图标规范](docs/shared/icon-system.md) |
+| 素材选用 | [素材索引](docs/shared/visual-assets.md) · [设计素材技能](skills/design-assets/SKILL.md) |
+| 拓扑图 | [规范](docs/images/topology-style.md) · [技能](skills/topology-diagram/SKILL.md) |
+| 企业案例三页图片 | [案例技能](skills/case-study/SKILL.md) |
 
-在仓库根目录按名称查找原件：
+本次同步包含技能必需的视觉参考图片，不包含 projects 项目成品、视频、配音和编辑工程。仓库原有视频指导保留，未更新。旧 docs 根目录资料保留兼容，新图标规范以 docs/shared 为准。
 
-```sh
-python3 scripts/find-design-asset.py "SIP 终端"
-python3 scripts/find-design-asset.py "路由器"
-```
+技能中的 ~/design 指本地素材库根目录；使用时将本仓库放到该位置或按实际路径调整。运行 `python3 scripts/find-design-asset.py "SIP 终端"` 查找素材。图标预览重建需要 Pillow 和 macOS sips。
 
-SVG 原件位于 [assets/icons](assets/icons/)。支持 SVG 的工具可直接使用原件；需要位图时，可按作品尺寸渲染透明 PNG。Mac 上可用 `python3 scripts/render-icon-preview.py` 重建各组预览（需要 Pillow 和系统自带的 sips）。
-
-本仓库公开展示设计规范和素材。复用、修改或再分发请向维护者确认授权。
+品牌标记保留原色和比例，相关来源见素材索引。公开展示不改变原品牌商标权及素材授权；复用或再分发请核对相应授权。

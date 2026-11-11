@@ -1,0 +1,3 @@
+interface:
+  display_name: "拓扑图设计"
+  short_description: "按个人白底与蓝灰四类线路规范，制作和修改网络、通信拓扑图"
